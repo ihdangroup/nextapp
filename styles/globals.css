@@ -60,3 +60,6 @@ ul li {
 .card-title {
   @apply text-2xl  font-bold py-3;
 }
+.portofolio {
+  @apply inline text-center border-b-4 border-sky-700 md:flex gap-x-4;
+}

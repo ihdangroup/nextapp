@@ -26,7 +26,7 @@ export default function Home() {
             </div>
           </div>
           <div className="container text-white">
-            <div className="inline text-center md:flex gap-x-4">
+            <div className="portofolio">
               <div className="card">
                 <Image src={db} width="150px" height="120px" />
                 <h3 className="card-title">Responsive</h3>
@@ -43,6 +43,49 @@ export default function Home() {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
+          </div>
+        </section>
+        <section id="keunggulan">
+          <div className="container justify-center">
+              <h3 className="text-3xl text-white font-bold py-5">Keunggulan</h3>
+          </div>
+          <div className="container flex-wrap text-white pb-5">
+            <div className="colom flex m-3">
+              <div className="number flex p-3 justify-center bg-slate-600 rounded-full items-center mx-3">
+                <h4>01</h4>
+              </div>
+              <div className="writing">
+                <h3 className="text-xl font-bold">Kreatif</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, atque.</p>
+              </div>
+            </div>        
+            <div className="colom flex m-3">
+              <div className="number flex p-3 justify-center bg-slate-600 rounded-full items-center mx-3">
+                <h4>01</h4>
+              </div>
+              <div className="writing">
+                <h3 className="text-xl font-bold">Cepat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, atque.</p>
+              </div>
+            </div>          
+            <div className="colom flex m-3">
+              <div className="number flex p-3 justify-center bg-slate-600 rounded-full items-center mx-3">
+                <h4>01</h4>
+              </div>
+              <div className="writing">
+                <h3 className="text-xl font-bold">Harga Terjangkau</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, atque.</p>
+              </div>
+            </div>          
+            <div className="colom flex m-3">
+              <div className="number flex p-3 justify-center bg-slate-600 rounded-full items-center mx-3">
+                <h4>01</h4>
+              </div>
+              <div className="writing">
+                <h3 className="text-xl font-bold">Copywriting Menarik</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, atque.</p>
+              </div>
+            </div>          
           </div>
         </section>
       </Layout>

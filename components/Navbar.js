@@ -10,17 +10,11 @@ export default function Navbar() {
                         </div>
                         <div>
                             <ul className="flex text-sm">
-                                <li className="link hidden md:list-item">
+                                <li className="link">
                                     <Link href="/"><a>Home</a></Link>
                                 </li>
-                                <li className="link hidden md:list-item">
+                                <li className="link">
                                     <Link href="/about"><a>About</a></Link>
-                                </li>
-                                <li className="link hidden md:list-item" >
-                                    <Link href="/"><a>Contact</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/"><button className="button link">Sign Up</button></Link>
                                 </li>
                             </ul>
                         </div>
